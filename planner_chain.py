@@ -6,7 +6,7 @@ from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 
 load_dotenv()
-llm = ChatOpenAI(temperature=0.7, model="gpt-4")
+llm = ChatOpenAI(temperature=0.7, model_name="gpt-4")
 
 template = """
 You are a smart travel planner. Generate a travel plan based on:
